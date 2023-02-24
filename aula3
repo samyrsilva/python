@@ -1,0 +1,39 @@
+a = int(input('digite a primeiroa nota: '))
+if a > 10 :
+    a = int(input('voce digitou um valor invalido digite valor da nota correto  : '))
+b = int(input('digite a segunda   nota:: '))
+if b > 10 :
+    b = int(input('voce digitou um valor invalido digite valor da nota correto  : '))
+c = int(input('digite a terceira  nota:: '))
+if c > 10 :
+    c = int(input('voce digitou um valor invalido digite valor da nota correto  : '))
+d = int(input('digite a quarta    nota:: '))
+if c > 10 :
+    c = int(input('voce digitou um valor invalido digite valor da nota correto  : ' ))
+media = (a + b + c + d) / 4
+# if a <= 10 and b <= 10 and c <= 10 and d <= 10
+if media > 6:
+    print("voce foi aprovado")
+else:
+    print("sua media foi menor que 06 voce não foi aprovado")
+
+print(media)
+
+
+
+
+
+
+
+# a = int(input('digite o primeiro valor: '))
+# b = int(input('digite o segundo valor: '))
+# c = int(input('digite o terceiro valor: '))
+# if a > b and a > c :
+#     print('o maior numero e {}'.format(a))
+# elif b > a and b > c:
+#     print('o maior numero e {}'.format(b))
+# else:
+#     print('o maior numero e {}'.format(c))
+#
+# print('final do programa')
+
