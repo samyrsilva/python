@@ -25,6 +25,7 @@ while operacao != 3:
         else:
             print("Saldo insuficiente para a venda!")
     elif operacao == 3: # encerrar
+        print("Saldo atualizado:", saldo)
         print("Encerrando o programa...")
     else: # operação inválida
         print("Operação inválida!")
